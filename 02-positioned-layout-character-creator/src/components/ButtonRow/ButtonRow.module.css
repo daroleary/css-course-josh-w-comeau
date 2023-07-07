@@ -1,0 +1,14 @@
+.buttonRow {
+    /* force the buttons to scroll on overflow automatically, 
+       since we no longer wrap on line break 
+       (aka too many buttons until we reach 50% of page) */
+    overflow: auto;
+    white-space: nowrap;
+
+    /* maintain the margin but as you scroll the buttons 
+       will scroll to within 2px of the original 24px margin */
+    margin-left: -22px;
+    margin-right: -22px;
+    margin-bottom: -22px;
+    padding: 22px;
+}
